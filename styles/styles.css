@@ -33,6 +33,11 @@ font-weight: 500;
     background-size: cover;
     height: 600px;
   }
+  .banner-box{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 60%;
+  }
   .s3-d2-1{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../Images/2.png);
     background-repeat: no-repeat;
@@ -76,6 +81,18 @@ font-weight: 800;
     }
     .s2-d2, .s3-d2, .s4-card{
       flex-direction: column;
+    }
+    .search-b{
+      display: none;
+    }
+    .s1-d1{
+      flex-direction: column;
+    }
+    .banner-box {
+      position: relative;
+      width: auto;
+    margin-top: 0px;
+    margin-left: 60px;
     }
     
   }
