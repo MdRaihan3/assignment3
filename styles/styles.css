@@ -1,0 +1,35 @@
+
+/* shared styles */
+.s-title{
+  color: #131318;
+text-align: center;
+font-size: 2.25rem;
+font-weight: 800;
+}
+.des{
+ color: #0D0D1263;
+font-size: 1rem;
+font-weight: 500;
+}
+
+
+
+
+.btn-s{
+    border-radius: 8px;
+  background: #FF4240;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .sec1{
+    background-image: url(../Images/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+  }

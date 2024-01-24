@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hockey</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- colors -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '',
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+  <header class="base-100
+  ">
+
+    <!-- navbar -->
+    <nav class="navbar bg-base-100 mx-20 my-10 w-auto">
+      <div class="navbar-start">
+        <div class="dropdown lg:hidden lg:absolute">
+          <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+            </svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Pages</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost text-3xl">Hockey<span class="text-[#FF4240]">'</span>s</a>
+
+      </div>
+      <div class="navbar-Center">
+        <ul class="flex gap-x-16 font-normal">
+          <li><a class="text-[#FF4240]" href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Pages</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+
+      </div>
+
+      <div class="navbar-end">
+        <button class="btn btn-ghost btn-circle">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+        </button>
+        <button class="btn btn-primary btn-s">Get Ticket</button>
+      </div>
+    </nav>
+  </header>
+  <main>
+
+    <!-- section 1 -->
+    <section class="sec1 mx-20 my-10 rounded-lg flex justify-between align-bottom items-end">
+      <div class="ml-16 mb-10 h-20">
+        <button class="p-3 rounded-full bg-black">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 16 18" fill="none">
+            <path d="M15.75 19.5L8.25 12L15.75 4.5" stroke="white" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+
+        <button class="p-3 rounded-full bg-black">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 12 18" fill="none">
+            <path d="M1.25 1.5L8.75 9L1.25 16.5" stroke="white" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+      <div class="bg-black w-96 h-40 p-6 rounded-lg mr-16 mb-10">
+        <h3 class="text-white font-extrabold text-2xl">
+          Here's The Champion
+        </h3>
+        <p class="text-white text-base font-medium">
+          Hockey World Cup winners: Pakistan top men's roll of honour, Netherlands dominate women's competition
+        </p>
+      </div>
+    </section>
+    <!-- section 2 -->
+<section class="sec2 mx-20 my-20">
+  <div>
+    <h3 class="s-title">
+      Professional Hockeys Club
+    </h3>
+    <p class="des text-center">
+      There are major club around the world, including the Welington Hockey Club in North America, the Kontinental <br>Hockey Club in France, and the Herald Hockey Club in Sweden
+    </p>
+  </div>
+  <div>
+
+
+
+  </div>
+</section>
+
+
+
+  </main>
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>
