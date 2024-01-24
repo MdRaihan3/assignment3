@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
   <meta charset="UTF-8">
@@ -21,12 +21,12 @@
       }
     }
   </script>
+
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
-  <header class="base-100
-  ">
+  <header class="base-100">
 
     <!-- navbar -->
     <nav class="navbar bg-base-100 mx-20 my-10 w-auto">
@@ -46,11 +46,11 @@
             <li><a href="">Contact</a></li>
           </ul>
         </div>
-        <a class="btn btn-ghost text-3xl">Hockey<span class="text-[#FF4240]">'</span>s</a>
+        <a class="btn btn-ghost text-3xl">Hockey<span class="text-[#FF4240] p-0">'</span>s</a>
 
       </div>
       <div class="navbar-Center">
-        <ul class="flex gap-x-16 font-normal">
+        <ul class="hidden lg:flex inline-block gap-x-16 font-normal">
           <li><a class="text-[#FF4240]" href="">Home</a></li>
           <li><a href="">About</a></li>
           <li><a href="">Pages</a></li>
@@ -72,51 +72,399 @@
     </nav>
   </header>
   <main>
+    <!-- banner -->
+    <div class="sec1-d carousel mx-20 my-10 rounded-lg">
+      <div id="slide1" class="carousel-item relative w-full">
+        <img src="Images/1.png" class="w-full" />
+        <div class="absolute flex justify-between items-end transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <div>
+            <a href="#slide2" class="btn btn-circle btn-neutral	">
+              << /a>
+                <a href="#slide2" class="btn btn-circle btn-neutral	">></a>
+          </div>
 
-    <!-- section 1 -->
-    <section class="sec1 mx-20 my-10 rounded-lg flex justify-between align-bottom items-end">
-      <div class="ml-16 mb-10 h-20">
-        <button class="p-3 rounded-full bg-black">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 16 18" fill="none">
-            <path d="M15.75 19.5L8.25 12L15.75 4.5" stroke="white" stroke-width="2" stroke-linecap="round"
-              stroke-linejoin="round" />
-          </svg>
-        </button>
-
-        <button class="p-3 rounded-full bg-black">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 12 18" fill="none">
-            <path d="M1.25 1.5L8.75 9L1.25 16.5" stroke="white" stroke-width="2" stroke-linecap="round"
-              stroke-linejoin="round" />
-          </svg>
-        </button>
+          <div class="bg-black w-96 h-40 p-6 rounded-lg mr-16 mb-10">
+            <h3 class="text-white font-extrabold text-2xl">
+              Final Venue
+            </h3>
+            <p class="text-white text-base font-medium">
+              Hockey World Cup Final Match Venue: Arlong Stadium, Toronto, Canada
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="bg-black w-96 h-40 p-6 rounded-lg mr-16 mb-10">
-        <h3 class="text-white font-extrabold text-2xl">
-          Here's The Champion
+
+      <div id="slide2" class="carousel-item relative w-full">
+        <img src="Images/banner2.jpg" class="w-full" />
+        <div class="absolute flex justify-between items-end transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <div> <a href="#slide1" class="btn btn-circle btn-neutral">
+              << /a>
+                <a href="#slide1" class="btn btn-circle btn-neutral">></a></div>
+          <div class="bg-black w-96 h-40 p-6 rounded-lg mr-16 mb-10">
+            <h3 class="text-white font-extrabold text-2xl">
+              Here's The Champion
+            </h3>
+            <p class="text-white text-base font-medium">
+              Hockey World Cup winners: Pakistan top men's roll of honour, Netherlands dominate women's competition
+            </p>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <!-- section 2 -->
+    <section class="sec2 mx-20 my-20 mb-12 p-6 border-y-2	border-dotted">
+      <div class="mb-8">
+        <h3 class="s-title">
+          Professional Hockeys Club
         </h3>
-        <p class="text-white text-base font-medium">
-          Hockey World Cup winners: Pakistan top men's roll of honour, Netherlands dominate women's competition
+        <p class="des text-center">
+          There are major club around the world, including the Welington Hockey Club in North America, the Kontinental
+          <br>Hockey Club in France, and the Herald Hockey Club in Sweden
         </p>
       </div>
+
+
+      <div class="s2-d2 flex gap-10 items-center text-center">
+        <div>
+          <div class="radial-progress text-red-600" style="--value:87;" role="progressbar"><span
+              class="text-[#131318] text-2xl text-bold">87%</span></div>
+          <h5 class="d2-title text-[#131318] text-xl	font-semibold my-4">Prayer Facility</h5>
+          <p class="des">The facilities are known to be top-class and are frequently used by the England National Team
+            for their preparation.</p>
+        </div>
+        <div class="">
+          <div class="radial-progress text-green-500" style="--value:95;" role="progressbar"><span
+              class="text-[#131318] text-2xl text-bold">95%</span></div>
+
+          <h5 class="d2-title text-[#131318] text-xl	font-semibol my-4">Experienced Coach</h5>
+          <p class="des">Ranking the best football (soccer) managers in the world, including Jurgen Klopp, Carlo Vincet
+          </p>
+        </div>
+        <div>
+          <div class="radial-progress text-orange-500" style="--value:90;" role="progressbar"><span
+              class="text-[#131318] text-2xl text-bold">90%</span></div>
+
+          <h5 class="d2-title text-[#131318] text-xl	font-semibold my-4">Senior Player</h5>
+          <p class="des">We currently have six Senior teams representing Upper Hutt Hockey in the Wellington.</p>
+        </div>
+        <div>
+          <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar"><span
+              class="text-[#131318] text-2xl text-bold">80%</span></div>
+
+          <h5 class="d2-title text-[#131318] text-xl	font-semibold my-4">Training Ground</h5>
+          <p class="des">Training takes place at Mile End grounds and Lee Valley Hockey Centre.</p>
+        </div>
+      </div>
     </section>
-    <!-- section 2 -->
-<section class="sec2 mx-20 my-20">
-  <div>
-    <h3 class="s-title">
-      Professional Hockeys Club
-    </h3>
-    <p class="des text-center">
-      There are major club around the world, including the Welington Hockey Club in North America, the Kontinental <br>Hockey Club in France, and the Herald Hockey Club in Sweden
-    </p>
-  </div>
-  <div>
+
+    <!-- section 3 -->
+    <section class="sec3 mx-20 my-20">
+      <div class="text-center">
+        <h3 class="s-title">Program Sections</h3>
+        <p class="des mt-4 mb-7">The workout program specifically designed for youth hockey hockey players. <br> Start
+          developing the foundations to take your game to the nextlevel.</p>
+      </div>
+      <div class="s3-d2 flex gap-4">
+        <div class="s3-d2-1 w-auto flex-1 rounded-lg text-[#FFF] px-6 py-8">
+          <h4 class="s3-d2-t ">Junior Program</h4>
+          <p class="text-[#FFF] my-4">Hockey's junior program provides opportunities for players ages 16-to-20 to hone
+            and enhance
+            their skills and is an important part of the organization's</p>
+          <button class="btn btn-primary btn-s">Register Now!</button>
+
+        </div>
+        <div class="s3-d2-2 w-auto flex-1 rounded-lg text-[#FFF] px-6 py-8">
+          <h4 class="s3-d2-t">Teenager Program</h4>
+          <p class="text-[#FFF] my-4">the World Class peenager program provide students with a great opportunity to
+            improve both
+            their English and their hockey skills.</p>
+          <button class="btn btn-primary btn-s">Register Now!</button>
+        </div>
+      </div>
+      <div class="s3-d3 rounded-lg mt-4 text-[#FFF] px-6 py-8">
+        <h4 class="s3-d2-t">Professional Program</h4>
+        <p class="text-[#FFF] my-4">The workout program specifically designed for youth hockey players. Start developing
+          the <br> foundations to take your game to the next level.</p>
+        <button class="btn btn-primary btn-s">Register Now!</button>
+      </div>
+    </section>
+    <!-- section 4 -->
+    <section class="sec4 lg:mx-20 lg:my-20">
+      <div class="text-center mb-12 p-6 border-y-2	border-dotted">
+        <h3 class="s-title">Our New Products</h3>
+        <p class="des">Explore the huge selection at the Sports store at Amazon.com. Shop Exercise & Fitness,<br>
+          Clothing, Team Sports, Accessories, Hunting & Fishing and Swimming</p>
+      </div>
+
+      <!-- card -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+        <div class="s4-card flex gap-5 p-3 shadow-md">
+          <div> <img src="Images/5.png" alt=""></div>
+          <div class="pr-10">
+            <div class="flex items-center gap-2">
+              <div><img class="h-5 w-5" src="Images/star.png" alt=""></div>
+              <div>5.0</div>
+              <div><img class="h-5 w-5" src="Images/visible.png" alt=""></div>
+              <div>20</div>
+              <div><img class="h-5 w-5" src="Images/heart.png" alt=""></div>
+              <div>200</div>
+            </div>
+            <div>
+              <h3 class="text-[#131318] text-xl font-extrabold">Basebll Jacket</h3>
+              <p class="des">Elevate your style, comfort, and confidence with this remarkable Unisex Baseball Jacket.
+              </p>
+            </div>
+            <div class="flex items-end">
+              <p class="text-[#FF4240] text-lg	font-extrabold">Price-$100</p>
+              <img class="h-5 w-5 ml-6" src="Images/shopping-cart_2838895.png" alt="">
+              <p class="des ml-2">Delivery Fee : Free</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="s4-card flex gap-5 p-3 shadow-md">
+          <div> <img src="Images/6.png" alt=""></div>
+          <div class="pr-10">
+            <div class="flex items-center gap-2">
+              <div><img class="h-5 w-5" src="Images/star.png" alt=""></div>
+              <div>4.9</div>
+              <div><img class="h-5 w-5" src="Images/visible.png" alt=""></div>
+              <div>50</div>
+              <div><img class="h-5 w-5" src="Images/heart.png" alt=""></div>
+              <div>149</div>
+            </div>
+            <div>
+              <h3 class="text-[#131318] text-xl font-extrabold">Badge</h3>
+              <p class="des">The badge of presented with bright and memorable graphics, reflects invincibility.
+              </p>
+            </div>
+            <div class="flex">
+              <p class="text-[#FF4240] text-lg	font-extrabold">Price-$10</p>
+              <img class="h-5 w-5 ml-6" src="Images/shopping-cart_2838895.png" alt="">
+              <p class="des ml-2">Delivery Fee : Free</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="s4-card flex gap-5 p-3 shadow-md">
+          <div class="w-40 h-40"> <img src="Images/7.png" alt=""></div>
+          <div class="pr-10">
+            <div class="flex items-center gap-2">
+              <div><img class="h-5 w-5" src="Images/star.png" alt=""></div>
+              <div>4.3</div>
+              <div><img class="h-5 w-5" src="Images/visible.png" alt=""></div>
+              <div>160</div>
+              <div><img class="h-5 w-5" src="Images/heart.png" alt=""></div>
+              <div>130</div>
+            </div>
+            <div>
+              <h3 class="text-[#131318] text-xl font-extrabold">Hockey Cap</h3>
+              <p class="des">Hockey Cap. Custom Embroidered 6089 Yupoong Snapbac hat.
+              </p>
+            </div>
+            <div class="flex">
+              <p class="text-[#FF4240] text-lg	font-extrabold">Price-$25</p>
+              <img class="h-5 w-5 ml-6" src="Images/shopping-cart_2838895.png" alt="">
+              <p class="des ml-2">Delivery Fee : Free</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="s4-card flex gap-5 p-3 shadow-md">
+          <div class="w-40 h-40"> <img src="Images/8.png" alt=""></div>
+          <div class="pr-10">
+            <div class="flex items-center gap-2">
+              <div><img class="h-5 w-5" src="Images/star.png" alt=""></div>
+              <div>4.2</div>
+              <div><img class="h-5 w-5" src="Images/visible.png" alt=""></div>
+              <div>30</div>
+              <div><img class="h-5 w-5" src="Images/heart.png" alt=""></div>
+              <div>100</div>
+            </div>
+            <div>
+              <h3 class="text-[#131318] text-xl font-extrabold">Football Jerjey</h3>
+              <p class="des">Multi Colour new football jersey Sijon
+              </p>
+            </div>
+            <div class="flex">
+              <p class="text-[#FF4240] text-lg	font-extrabold">Price-$200</p>
+              <img class="h-5 w-5 ml-6" src="Images/shopping-cart_2838895.png" alt="">
+              <p class="des ml-2">Delivery Fee : Free</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="s4-card flex gap-5 p-3 shadow-md">
+          <div class="w-40 h-40"> <img src="Images/9.png" alt=""></div>
+          <div class="pr-10">
+            <div class="flex items-center gap-2">
+              <div><img class="h-5 w-5" src="Images/star.png" alt=""></div>
+              <div>4.8</div>
+              <div><img class="h-5 w-5" src="Images/visible.png" alt=""></div>
+              <div>45</div>
+              <div><img class="h-5 w-5" src="Images/heart.png" alt=""></div>
+              <div>600</div>
+            </div>
+            <div>
+              <h3 class="text-[#131318] text-xl font-extrabold">Cricket Helmets</h3>
+              <p class="des">From Junior to Elite, the safest cricket helmets on the market.
+              </p>
+            </div>
+            <div class="flex">
+              <p class="text-[#FF4240] text-lg	font-extrabold">Price-$100</p>
+              <img class="h-5 w-5 ml-6" src="Images/shopping-cart_2838895.png" alt="">
+              <p class="des ml-2">Delivery Fee : Free</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="s4-card flex gap-5 p-3 shadow-md">
+          <div> <img class="lg:w-60 lg:h-40" src="Images/10.png" alt=""></div>
+          <div class="pr-10">
+            <div class="flex items-center gap-2">
+              <div><img class="h-5 w-5" src="Images/star.png" alt=""></div>
+              <div>5.0</div>
+              <div><img class="h-5 w-5" src="Images/visible.png" alt=""></div>
+              <div>20</div>
+              <div><img class="h-5 w-5" src="Images/heart.png" alt=""></div>
+              <div>200</div>
+            </div>
+            <div>
+              <h3 class="text-[#131318] text-xl font-extrabold">Football</h3>
+              <p class="des">Premium Quality Player Version World Cup Football Qatar 2022 Pasting Bal -Football
+              </p>
+            </div>
+            <div class="flex">
+              <p class="text-[#FF4240] text-lg	font-extrabold">Price-$150</p>
+              <img class="h-5 w-5 ml-6" src="Images/shopping-cart_2838895.png" alt="">
+              <p class="des ml-2">Delivery Fee : Free</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- section 5 -->
+    <section class="sec5 lg:mx-20 lg:my-20">
+      <div class="text-center mb-12 p-6 border-y-2	border-dotted">
+        <h3 class="s-title mb-4">Clients Question</h3>
+        <p class="des">Here are some common questions about our service and it's answer. <br> Hope it will be helpful.
+        </p>
+      </div>
+      <div class="flex gap-10 p-10 mb-12  border-y-2	border-dotted">
+
+        <div> <img src="Images/11.png" alt=""></div>
+        <div class="w-full">
+          <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title text-xl font-medium">
+              Our Equipment
+            </div>
+            <div class="collapse-content">
+              <p>We have best quality equipment, to ensure best service</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              Hockey Training
+            </div>
+            <div class="collapse-content">
+              <p>We give service with the finest coach.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              Private Lessons
+            </div>
+            <div class="collapse-content">
+              <p>Our client also can get private lesson</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              Ski Touring
+            </div>
+            <div class="collapse-content">
+              <p>You can also experience sky touring.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              Booking
+            </div>
+            <div class="collapse-content">
+              <p>You can book now in a reasonable price.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              Pricings
+            </div>
+            <div class="collapse-content">
+              <p>you can buy in a discount.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- section 6 -->
+    <section class="sec6 mb-16">
+      <h4 class="text-center text-[#131318] font-extrabold text-lg">Social Media</h4>
+      <div class="flex justify-center gap-6">
+        <img class="w-5 h-5" src="Images/twitter.png" alt="">
+        <img class="w-5 h-5" src="Images/facebook-app-symbol.png" alt="">
+        <img class="w-5 h-5" src="Images/instagram.png" alt="">
+      </div>
+    </section>
+    <!-- section 7 -->
+    <footer class="footer lg:px-32 lg:py-16 bg-[#131318]">
+      <nav>
+        <header class="text-2xl text-[#FFF] font-bold">Get In Touch</header>
+        <a class="link link-hover">You can contact with us 24 hour. Our contact number given below.</a>
+        <a class="link link-hover">
+          <div class="flex gap-4"><img class="w-5 h-5" src="Images/icons8-new-message-30.png" alt="">
+            <p>hockeyon33@gmail.com</p>
+          </div>
+        </a>
+        <a class="link link-hover">
+          <div class="flex gap-4"><img class="w-5 h-5" src="Images/icons8-call-30.png" alt="">
+            <p>+8801586478992</p>
+          </div>
+        </a>
+
+      </nav>
+      <nav>
+        <header class="text-xl text-[#FFF] font-bold">Company</header>
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </nav>
+      <nav>
+        <header class="text-xl text-[#FFF] font-bold">Support</header>
+        <a class="link link-hover">Help Center</a>
+        <a class="link link-hover">FAQ</a>
+        <a class="link link-hover">Ticket Support</a>
+      </nav>
+      <nav>
+        <header class="text-xl text-[#FFF] font-bold">Services</header>
+        <a class="link link-hover">Equipment</a>
+        <a class="link link-hover">Group Lesson</a>
+        <a class="link link-hover">Training Ground</a>
+      </nav>
 
 
-
-  </div>
-</section>
-
-
+    </footer>
 
   </main>
   <footer>

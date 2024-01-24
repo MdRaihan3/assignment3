@@ -33,3 +33,49 @@ font-weight: 500;
     background-size: cover;
     height: 600px;
   }
+  .s3-d2-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../Images/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+  }
+  .s3-d2-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../Images/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+  }
+  .s3-d3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../Images/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+  }
+  .s3-d2-t{
+    color: #FFF;
+font-size: 1.75rem;
+font-weight: 800;
+  }
+  footer nav>a{
+    color: #FFFFFF99;
+  }
+  /* responsive styles */
+  @media screen and (max-width:600px) {
+   
+    nav>.my-10{
+      margin-right: 6px;
+      margin-left: 6px;
+    }
+    .sec1-d{
+      margin-right: 6px;
+      margin-left: 6px;
+    }
+    .mx-20{
+      margin-right: 6px;
+      margin-left: 6px;
+    }
+    .s2-d2, .s3-d2, .s4-card{
+      flex-direction: column;
+    }
+    
+  }
